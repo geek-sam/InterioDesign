@@ -36,8 +36,8 @@ export default function ServicesPage() {
         </section>
       </div>
 
-      <section className="relative z-10 -mt-14 rounded-t-[2rem] bg-[#F7F5F0] pt-0 md:pt-20 px-6 md:px-10 lg:px-24">
-        <div className="mx-auto max-w-[1500px] pb-20">
+      <section className="relative z-10 -mt-14 rounded-t-[2rem] bg-[#F7F5F0] overflow-hidden">
+        {/* <div className="mx-auto max-w-[1500px] pb-20">
           <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div>
               <div className="mb-4 flex items-center gap-3 text-sm text-[#858585]">
@@ -54,10 +54,10 @@ export default function ServicesPage() {
               Every space has its own character, shaped by thoughtful design.
             </p>
           </div>
-        </div>
+        </div> */}
+        <StickyServices />
       </section>
       <ProcessSection />
-      <StickyServices />
       <FAQ />
       <CTASection />
     </main>
