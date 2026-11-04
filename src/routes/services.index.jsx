@@ -4,6 +4,7 @@ import StickyServices from "../components/site/Home/StickyServices";
 import FAQ from "../components/site/FAQ";
 import CTASection from "../components/site/CTA";
 import ProcessSection from "../components/site/Process";
+import { Link } from "react-router-dom";
 
 export default function ServicesPage() {
   const imageRef = useRef(null);
@@ -27,11 +28,10 @@ export default function ServicesPage() {
 
           {/* Bottom Information */}
           <div className="absolute bottom-25 left-6 right-6 z-10 flex items-center justify-between text-[10px] uppercase tracking-[0.2em] text-white/80 md:left-16 md:right-16 lg:left-24 lg:right-24">
-            <h3 className="max-w-4xl font-medium text-2xl leading-[1.4] md:text-7xl lg:text-4xl">
-              We design interior and architectural spaces with clarity,
-              structure, and purpose from concept to completion.
+            <h3 className="max-w-4xl font-medium text-4xl leading-[1.3] md:text-5xl lg:text-6xl">
+              From the first sketch to the last chair.
             </h3>
-            <a href="#">Get in touch ↓</a>
+            <Link to="/contact">Get in touch ↗</Link>
           </div>
         </section>
       </div>

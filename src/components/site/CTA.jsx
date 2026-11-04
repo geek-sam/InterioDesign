@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function CTASection() {
   return (
@@ -34,15 +35,15 @@ export default function CTASection() {
           Let's create something memorable together.
         </p>
 
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="group mt-12 inline-flex items-center gap-3 border-b border-white/80 pb-2 text-sm font-medium transition-all duration-300 hover:border-white hover:gap-5"
         >
           Start a Project
           <span className="text-lg transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1">
             ↗
           </span>
-        </a>
+        </Link>
       </motion.div>
     </section>
   );

@@ -136,7 +136,7 @@ export default function Contact() {
               Get in Touch
             </div>
 
-            <h1 className="max-w-4xl text-5xl font-medium leading-[1.05] tracking-[-0.06em] text-[#171717] sm:text-6xl md:text-7xl lg:text-[88px]">
+            <h1 className="max-w-xl text-4xl font-medium leading-[1.08] tracking-[-0.055em] md:text-5xl lg:text-6xl">
               Let's create something
               <br />
               <span className="text-[#BDBDB7]">meaningful together.</span>
