@@ -24,18 +24,18 @@ export default function SelectedWorks() {
         </div>
 
         {/* First Row: Large + Small */}
-        <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[1.8fr_1fr] md:h-full md:gap-10">
-          {projects.slice(0, 2).map((project) => (
+        <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[1fr_1fr_1fr_1fr] md:h-full md:gap-10">
+          {projects.slice(0, 4).map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
 
-        {/* Second Row: Small + Large */}
+        {/* Second Row: Small + Large
         <div className="mt-12 grid grid-cols-1 items-start gap-10 md:mt-20 md:grid-cols-[1fr_1.8fr] md:gap-10">
           {projects.slice(2, 4).map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
-        </div>
+        </div> */}
 
         {/* View All */}
         <div className="mt-16 flex justify-center">
