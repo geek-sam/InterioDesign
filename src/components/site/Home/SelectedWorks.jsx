@@ -24,8 +24,8 @@ export default function SelectedWorks() {
         </div>
 
         {/* First Row: Large + Small */}
-        <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[1fr_1fr_1fr_1fr] md:h-full md:gap-10">
-          {projects.slice(0, 4).map((project) => (
+        <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[1fr_1fr_1fr] md:h-full md:gap-10">
+          {projects.slice(0, 3).map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>

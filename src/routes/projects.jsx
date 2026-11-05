@@ -54,7 +54,7 @@ export default function Projects() {
           </div>
 
           {/* First Row: Large + Small */}
-          <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[1fr_1fr_1fr_1fr] md:h-full md:gap-10">
+          <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[1fr_1fr_1fr] md:h-full md:gap-10">
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
